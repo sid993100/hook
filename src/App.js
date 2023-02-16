@@ -1,22 +1,12 @@
 import React from 'react';
+import UseState from './UseState';
 
-function App() {
-  const email=
-  const setEmail=
-  
-  function handleChange(e){
-    setEmail(e.target.value)
-  }
-
-  
+const App = () => {
   return (
     <div>
-      <input 
-      value={email}
-      onChange={handleChange}
-      />
+      <UseState />
     </div>
   )
 }
 
-export default App
+export default App;
